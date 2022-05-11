@@ -1,8 +1,5 @@
 .wrapper {
-    width: 100%;
-    height: 100%;
     justify-items: center;
-    display: grid;
     grid-template-rows: 10% 90%;
 }
 
@@ -14,13 +11,13 @@
 .help {
     color: black;
     font-size: 12px;
-    border: black 1px solid;
+    border: var(--border-form-color) 1px solid;
+    text-align: center;
 }
 
 .form-wrapper {
     width: 100%;
     height: 100%;
-    display: grid;
     align-content: space-between;
 }
 

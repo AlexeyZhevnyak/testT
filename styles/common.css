@@ -1,3 +1,9 @@
+:root {
+    --help-color: #ffffff;
+    --bg-form-color: #ffffff;
+    --border-form-color: #000000;
+}
+
 html, body {
     height: 100%;
     width: 100%;
@@ -41,4 +47,18 @@ html, body {
 
 .form-wrapper, .logo {
     visibility: hidden;
+}
+
+.wrapper {
+    display: grid;
+    height: 100%;
+    width: 100%;
+}
+
+.form-wrapper {
+    display: grid;
+}
+
+.form {
+    background-color: var(--bg-form-color);
 }

@@ -1,0 +1,30 @@
+.wrapper{
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+.logo{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.help{
+    color: black;
+    font-size: 12px;
+    border: black 1px solid;
+}
+.form-wrapper{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-content: space-between;
+}
+.form * {
+    width: 100%;
+    margin: 2px;
+}
+.form{
+    padding: 12px;
+}
+

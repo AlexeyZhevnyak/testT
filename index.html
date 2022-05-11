@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" class="fade-in">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="pc.css" media="only screen and (min-width: 992px)">
+    <link rel="stylesheet" href="tablet.css" media="only screen and (max-width: 991px) and (min-width: 480px)">
+    <link rel="stylesheet" href="mobile.css" media="only screen and (max-width: 479px)">
+    <link rel="stylesheet" href="common.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="logo-wrapper">
+        <img src="logo.svg" class="logo" id="logo"/>
+    </div>
+    <div class="form-wrapper" id="form-wrapper">
+        <form class="form" id="form">
+            <div>Login</div>
+            <input type="email" required>
+            <div>Password</div>
+            <input type="password" pattern="[0-9a-fA-F]{8,16}" required>
+        </form>
+        <div class="help">Get help</div>
+    </div>
+</div>
+</body>
+<script src="index.js"></script>
+
+</html>

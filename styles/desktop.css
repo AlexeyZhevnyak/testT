@@ -1,42 +1,40 @@
-
-.form{
+.form {
     font-size: 18px;
     width: 400px;
     height: 100px;
-    border: black 1px solid;
-    background: white;
+    border: var(--border-form-color) 1px solid;
     display: grid;
     align-items: center;
     justify-items: center;
     grid-template-columns: 40% 60%;
 }
-.wrapper{
-    display: grid;
+
+.wrapper {
     grid-auto-flow: column;
-    height: 100%;
-    width: 100%;
 }
-.form-wrapper, .logo-wrapper{
+
+.form-wrapper, .logo-wrapper {
     width: 100%;
 }
 
-body{
-    background: url("back_lg.jpg") no-repeat;
+body {
+    background: url("../assets/back_lg.jpg") no-repeat;
     background-size: cover;
 }
-.help{
-    color: white;
+
+.help {
+    color: var(--help-color);
     text-align: right;
     font-size: 12px;
-
 }
-.form-wrapper{
-    display: grid;
+
+.form-wrapper {
     grid-auto-flow: row;
     justify-items: center;
     align-items: end;
 }
-.logo-wrapper{
+
+.logo-wrapper {
     display: grid;
     justify-items: center;
     align-items: center;

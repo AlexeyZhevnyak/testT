@@ -4,15 +4,24 @@ html, body {
 }
 
 @-webkit-keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-}
-@keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
-.fade-in{
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
@@ -20,14 +29,16 @@ html, body {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
 }
-*{
-    font-family: Arial, serif;
 
+* {
+    font-family: Arial, serif;
 }
-.logo{
+
+.logo {
     width: 70px;
     height: 70px;
 }
-.form-wrapper, .logo{
+
+.form-wrapper, .logo {
     visibility: hidden;
 }

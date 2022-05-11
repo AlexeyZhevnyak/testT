@@ -1,21 +1,23 @@
-body{
-    background: url("back_tablet.jpg") no-repeat;
+body {
+    background: url("../assets/back_tablet.jpg") no-repeat;
     background-size: cover;
 }
 
-.wrapper{
+.wrapper {
     display: grid;
     grid-auto-flow: row;
     height: 100%;
     width: 100%;
     justify-items: center;
 }
-.logo-wrapper{
+
+.logo-wrapper {
     display: grid;
     justify-items: center;
     align-items: center;
 }
-.form{
+
+.form {
     font-size: 18px;
     width: 330px;
     height: 100px;
@@ -25,11 +27,12 @@ body{
     padding: 10px;
 }
 
-.help{
+.help {
     color: white;
     font-size: 12px;
 }
-.form-wrapper{
+
+.form-wrapper {
     display: grid;
     grid-auto-flow: row;
     justify-items: center;

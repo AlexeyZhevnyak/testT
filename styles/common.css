@@ -73,3 +73,6 @@ html{
     background-color: var(--bg-form-color);
 }
 
+.help{
+    margin-bottom: 10px;
+}

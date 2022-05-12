@@ -9,6 +9,16 @@ html, body {
     width: 100%;
 }
 
+body{
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+html{
+    display: none;
+}
+
 @-webkit-keyframes fadeIn {
     0% {
         opacity: 0;
@@ -62,3 +72,4 @@ html, body {
 .form {
     background-color: var(--bg-form-color);
 }
+
